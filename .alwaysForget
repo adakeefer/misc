@@ -1,0 +1,26 @@
+.alwaysForget
+List of all linux commands I will, inevitably, always forget.
+Inspired by Andrew DeOrio
+
+Adam Keefer <keefera@umich.edu>
+
+ls -a: display all, including this hidden file
+
+curl [address]: transfer data to or from a server
+
+curl --verbose: see all HTTP response cycle info
+
+less: display a small portion of a file
+
+[command] | less: display small portion of [command]'s output
+
+grep [word]: search for text with [word]
+
+lynx [address]: neat little web browser in terminal - text-based
+
+host [address]: translate url to server IP where it is located
+
+mv [file1] [file2]: can move, but can also rename [file1] to [file2]
+
+
+
