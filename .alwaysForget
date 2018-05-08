@@ -10,11 +10,17 @@ curl [address]: transfer data to or from a server
 
 curl --verbose: see all HTTP response cycle info
 
+curl --head: check if page has changed, use cached version of page
+
+curl --user-agent [agent]: fake your identity. use w/ "Mozilla/5.0" or etc
+
+curl --cookie-jar [.txt file]: store cookies in .txt file
+
 less: display a small portion of a file
 
 [command] | less: display small portion of [command]'s output
 
-grep [word]: search for text with [word]
+grep [word] [object]: search for text with [word] in [object]
 
 lynx [address]: neat little web browser in terminal - text-based
 
@@ -22,5 +28,23 @@ host [address]: translate url to server IP where it is located
 
 mv [file1] [file2]: can move, but can also rename [file1] to [file2]
 
+mv [myfolder]/* .: move the contents of one directory up one level
 
+nmap [address]: check which ports are open at an address - NOT NICE!
+
+nc -v -z [address] [port number]: check if a port is open
+
+file [filename]: says what the file is, whats inside it, encoding, etc
+
+file --mime: gives mime encoding of file
+
+cat [filename]: view file in terminal
+
+sl: make a train go through your terminal :)
+
+alias [blah] = [blah2]: give blah a nickname
+
+.bashrc: not a command, but file in root that stores bash settings/aliases
+
+[print command] | jq: print JSON data nicely
 
